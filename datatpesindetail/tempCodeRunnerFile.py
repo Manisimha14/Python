@@ -1,0 +1,1 @@
+error ="mani"+5 # This will raise a TypeError: unsupported operand type(s) for +: 'str' and 'int'

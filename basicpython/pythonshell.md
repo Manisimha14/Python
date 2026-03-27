@@ -81,11 +81,13 @@ Test how functions or libraries work.
 4.0
 
 5. Python Shell vs Python Script
-Python Shell	Python Script
-Interactive	Stored in .py file
-Runs line by line	Runs whole file
-Temporary	Permanent
-Best for learning/testing	Best for projects
+
+| Feature | Python Shell | Python Script |
+| --- | --- | --- |
+| Usage | Interactive | Stored in .py file |
+| Execution | Runs line by line | Runs whole file |
+| Persistence | Temporary | Permanent |
+| Best For | Learning/testing | Projects |
 6. Python Shell Execution Flow
 User Input
    │
@@ -99,10 +101,12 @@ Print Result
 Loop Back
 
 7. Important Shell Prompts
-Prompt	Meaning
->>>	Python is ready
-...	Inside a block (function, loop, condition)
-PS C:\>	PowerShell (not Python)
+
+| Prompt | Meaning |
+| --- | --- |
+| >>> | Python is ready |
+| ... | Inside a block (function, loop, condition) |
+| PS C:\> | PowerShell (not Python) |
 8. C
 5. Important Rule: Re-import When Code Changes ⭐
 🔴 This is VERY IMPORTANT for beginners

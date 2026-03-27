@@ -1,10 +1,10 @@
-Awesome choice 👍 — **Mermaid diagrams make this 10× clearer**, especially on GitHub.
+# Awesome choice 👍 — **Mermaid diagrams make this 10× clearer**, especially on GitHub
 
 Below is a **fully updated, ready-to-commit Markdown file** with **Mermaid flowcharts + stack/heap diagrams**, covering **mutability vs immutability in Python and Java**, exactly aligned with everything we discussed.
 
 You can save this as:
 
-```
+```text
 mutability_vs_immutability_python_java.md
 ```
 
@@ -42,25 +42,25 @@ GitHub, VS Code, and many Markdown viewers will render these diagrams automatica
 
 ### Common Immutable Types
 
-| Type | Immutable |
-|----|----|
-| `int` | ✅ |
-| `float` | ✅ |
-| `bool` | ✅ |
-| `str` | ✅ |
-| `tuple` | ✅ |
-| `frozenset` | ✅ |
+| Type      | Immutable |
+|-----------|-----------|
+| `int`       | ✅       |
+| `float`     | ✅       |
+| `bool`      | ✅       |
+| `str`       | ✅       |
+| `tuple`     | ✅       |
+| `frozenset` | ✅       |
 
 ---
 
-### Example: Integer Reassignment
+## Example: Integer Reassignment
 
 ```python
 x = 10
 x = x + 1
-````
+```
 
-### Mermaid: Rebinding (Not Mutation)
+## Mermaid: Rebinding (Not Mutation)
 
 ```mermaid
 flowchart LR
@@ -78,11 +78,11 @@ flowchart LR
 
 ### Common Mutable Types
 
-| Type   | Mutable |
-| ------ | ------- |
-| `list` | ✅       |
-| `dict` | ✅       |
-| `set`  | ✅       |
+| Type    | Mutable |
+| ------- | ------- |
+| `list`  | ✅      |
+| `dict`  | ✅      |
+| `set`   | ✅      |
 
 ---
 
@@ -152,7 +152,7 @@ flowchart LR
 
 ## 7. Java Object Model
 
-### Java Has:
+### Java Has
 
 * **Primitives** (`int`, `double`)
 * **Objects** (`String`, `Integer`, `ArrayList`)
@@ -179,8 +179,8 @@ a = 20;
 
 | Class     | Immutable |
 | --------- | --------- |
-| `String`  | ✅         |
-| `Integer` | ✅         |
+| `String`  | ✅        |
+| `Integer` | ✅        |
 
 ---
 
@@ -254,7 +254,7 @@ System.out.println(a);
 
 ### Output
 
-```
+```text
 10
 ```
 
@@ -307,13 +307,13 @@ flowchart LR
 
 ## 14. Python vs Java — Philosophy
 
-| Aspect                   | Python        | Java       |
-| ------------------------ | ------------- | ---------- |
-| Everything is object     | ✅             | ❌          |
-| Mutability runtime-based | ✅             | ❌          |
-| Compile-time enforcement | ❌             | ✅          |
-| Variable redeclaration   | Not a concept | ❌          |
-| Pass-by-value            | Names         | References |
+| Aspect                   | Python        | Java          |
+| ------------------------ | ------------- | ------------- |
+| Everything is object     | ✅            | ❌            |
+| Mutability runtime-based | ✅            | ❌            |
+| Compile-time enforcement | ❌            | ✅            |
+| Variable redeclaration   | Not a concept | ❌            |
+| Pass-by-value            | Names         | References    |
 
 ---
 
@@ -339,9 +339,9 @@ flowchart TD
 
 ---
 
-# 🧠 Tricky Questions (Test Yourself)
+## 🧠 Tricky Questions (Test Yourself)
 
-### Q1 (Python)
+## Q1 (Python)
 
 ```python
 a = "hi"
@@ -354,7 +354,7 @@ print(b)
 
 ---
 
-### Q2 (Python)
+## Q2 (Python)
 
 ```python
 a = [1, 2]
@@ -367,7 +367,7 @@ print(b)
 
 ---
 
-### Q3 (Java)
+## Q3 (Java)
 
 ```java
 String a = "hi";
@@ -380,7 +380,7 @@ System.out.println(b);
 
 ---
 
-### Q4 (Java)
+## Q4 (Java)
 
 ```java
 Integer a = 100;
@@ -392,7 +392,7 @@ System.out.println(a == b);
 
 ---
 
-### Q5 (Java)
+## Q5 (Java)
 
 ```java
 void f(Integer x) {
